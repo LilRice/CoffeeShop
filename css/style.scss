@@ -1,0 +1,13 @@
+@import 'palette';
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet');
+
+body{
+    background: $color1; 
+    nav{
+        float: right;
+        a{
+            color: $color6;
+        }
+    }
+}

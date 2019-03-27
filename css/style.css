@@ -1,0 +1,32 @@
+/* Coolors Exported Palette - coolors.co/bbbab7-fde1b1-bcc1c4-cbbb9f-f0f0f0 */
+/* HSL */
+/* RGB */
+/* Enkel CSS-reset */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet');
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #bbbab7;
+}
+
+body nav {
+  float: right;
+}
+
+body nav a {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

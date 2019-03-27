@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>DET FUNKAR </h1>
+    <div class="container">
+    <nav>
+    <a href="#">Home</a>
+    <a href="#">Coffee Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    </nav>
+    
+    
+    </div>
 </body>
 </html>
