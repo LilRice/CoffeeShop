@@ -19,14 +19,81 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 body {
-  background: #bbbab7;
+  background: #f0f0f0;
 }
 
-body nav {
-  float: right;
+body .container {
+  width: 1280px;
+  margin: auto auto;
 }
 
-body nav a {
+body .container header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container img {
+  margin-top: 33px;
+}
+
+body .container nav {
+  margin-top: 50px;
+}
+
+body .container nav a {
   color: black;
+  font-size: 30px;
+  margin: 25px;
+  text-decoration: none;
+}
+
+body .container .slider {
+  -webkit-box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+body .container .yellowbutton {
+  position: absolute;
+  top: 70%;
+  left: 48%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFBA00;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 39px;
+  cursor: pointer;
+}
+
+body .imagenav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+body .imagenav img {
+  margin: 0px;
+  width: 640px;
+}
+
+body .imagebutton-car {
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFBA00;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 39px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

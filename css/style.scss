@@ -3,11 +3,68 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet');
 
 body{
-    background: $color1; 
+    background: $color5; 
+    
+    .container{
+        width: 1280px;
+        margin: auto auto;
+        
+        header{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        }
+        img {
+            margin-top: 33px;
+        }
+    
     nav{
-        float: right;
+        margin-top: 50px;
         a{
             color: $color6;
+            font-size: 30px;
+            margin: 25px;
+            text-decoration: none;
+            }
         }
+        .slider{
+            box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.5);
+        }
+    
+        
+        .yellowbutton{
+            position: absolute;
+            top: 70%;
+            left: 48%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #FFBA00;
+            font-size: 30px;
+            font-weight: bold;
+            border-radius: 39px;
+            cursor: pointer;
+        }
+    }
+    .imagenav{
+        display: grid;
+        grid-template-columns: auto auto;   
+    }
+    .imagenav img {
+        margin: 0px;
+        width: 640px;
+         
+    }
+    .imagebutton-car{
+        position: absolute;
+        top: 100%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #FFBA00;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 39px;
+        cursor: pointer;
+
     }
 }
