@@ -1,38 +1,41 @@
 @import 'palette';
 @import 'reset';
+@import 'login';
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet');
 
-body{
-    background: $color5; 
-    
-    .container{
+body {
+    background: $color5;
+
+    .container {
         width: 1280px;
         margin: auto auto;
-        
-        header{
-        display: grid;
-        grid-template-columns: auto auto;
-        justify-content: space-between;
+
+        header {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-between;
         }
-        img {
+
+        .slider {
             margin-top: 33px;
         }
-    
-    nav{
-        margin-top: 50px;
-        a{
-            color: $color6;
-            font-size: 30px;
-            margin: 25px;
-            text-decoration: none;
+
+        nav {
+            margin-top: 50px;
+
+            a {
+                color: $color6;
+                font-size: 30px;
+                margin: 25px;
+                text-decoration: none;
             }
         }
-        .slider{
+
+        .slider {
             box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.5);
         }
-    
-        
-        .yellowbutton{
+
+        .yellowbutton {
             position: absolute;
             top: 70%;
             left: 48%;
@@ -45,26 +48,92 @@ body{
             cursor: pointer;
         }
     }
-    .imagenav{
+
+    .imagenav {
         display: grid;
-        grid-template-columns: auto auto;   
-    }
-    .imagenav img {
-        margin: 0px;
-        width: 640px;
-         
-    }
-    .imagebutton-car{
-        position: absolute;
-        top: 100%;
-        left: 25%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        background-color: #FFBA00;
-        font-size: 30px;
-        font-weight: bold;
-        border-radius: 39px;
-        cursor: pointer;
+        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 320px 320px;
+
+        div {
+            display: grid;
+            justify-content: center;
+            align-content: center;
+
+            button {
+                background-color: rgba(255, 255, 255, 0.452);
+                font-size: 30px;
+                font-weight: bold;
+                height: 75px;
+                width: 250px;
+                cursor: pointer;
+            }
+        }
+
+        .career {
+            background-image: url("../images/Bellagio-Patisserie-coffee.png");
+        }
+
+        .about-us {
+            background-image: url("../images/revolver-2-600x300.png");
+        }
+
+        .coffee-shops {
+            background-image: url("../images/coffeeshop.png");
+        }
+
+        .contacts {
+            background-image: url("../images/download.png");
+        }
+
+
+
 
     }
+
+footer{
+    background-color: #CBBB9F;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    p{
+        font-weight: bold;
+    }
+
+    
+}
+
+//Coffee shop CSS
+.shops{
+   display: grid;
+   grid-template-columns: auto auto;
+   width: 600px;
+   padding: 10px;
+   img{
+       padding: 5px;
+   }
+   h3{
+       padding: 5px;
+   }
+   p{
+       padding: 5px;
+   }
+}
+
+.about-text{
+    width: 555px;
+    margin: auto auto;
+    text-align: center;
+    h2{
+        padding: 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+        text-align: center;
+        
+    }
+}
+
 }

@@ -19,21 +19,36 @@
                 <a href="contact.php">Contact</a>
                 <a href="login.php">Login</a>
             </nav>
-        </header>
-        <img src="./images/How-Can-You-Possibly-Perform-At-Your-Peak.png" class="slider">
-        <button class="yellowbutton">Search for coffee shop</button>
-
-        <div class="imagenav">
-            <div class="career"> <a href=""><button class="imagebutton-menu">Careers</button></a></div>
-
-            <div class="about-us"><button class="imagebutton-menu">About Us</button></div>
+            </div>
             
-            <div class="coffee-shops"><a href=""><button class="imagebutton-menu">Coffee Shops</button></a></div>
-            
-            <div class="contacts"> <a href=""><button class="imagebutton-menu">Contact Us</button></a></div>
-        </div>
+    <form action="login.php">
+        <div class="register">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
 
-        <footer>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <hr>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="signin.php">Sign in</a>.</p>
+  </div>
+</form>
+
+
+
+             <footer>
             <p>Vägenvägen 1 <br>
                 123 45 <br>
                 071234567

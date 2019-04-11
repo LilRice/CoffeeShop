@@ -18,6 +18,68 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
   padding: 0;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.register {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #fff;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: white;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #fff;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #F0F0F0;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
 body {
   background: #f0f0f0;
 }
@@ -37,7 +99,7 @@ body .container header {
           justify-content: space-between;
 }
 
-body .container img {
+body .container .slider {
   margin-top: 33px;
 }
 
@@ -76,24 +138,95 @@ body .imagenav {
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 320px 320px;
+      grid-template-rows: 320px 320px;
 }
 
-body .imagenav img {
-  margin: 0px;
-  width: 640px;
+body .imagenav div {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
-body .imagebutton-car {
-  position: absolute;
-  top: 100%;
-  left: 25%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #FFBA00;
+body .imagenav div button {
+  background-color: rgba(255, 255, 255, 0.452);
   font-size: 30px;
   font-weight: bold;
-  border-radius: 39px;
+  height: 75px;
+  width: 250px;
   cursor: pointer;
+}
+
+body .imagenav .career {
+  background-image: url("../images/Bellagio-Patisserie-coffee.png");
+}
+
+body .imagenav .about-us {
+  background-image: url("../images/revolver-2-600x300.png");
+}
+
+body .imagenav .coffee-shops {
+  background-image: url("../images/coffeeshop.png");
+}
+
+body .imagenav .contacts {
+  background-image: url("../images/download.png");
+}
+
+body footer {
+  background-color: #CBBB9F;
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+body footer p {
+  font-weight: bold;
+}
+
+body .shops {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  width: 600px;
+  padding: 10px;
+}
+
+body .shops img {
+  padding: 5px;
+}
+
+body .shops h3 {
+  padding: 5px;
+}
+
+body .shops p {
+  padding: 5px;
+}
+
+body .about-text {
+  width: 555px;
+  margin: auto auto;
+  text-align: center;
+}
+
+body .about-text h2 {
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+body .about-text p {
+  font-size: 14px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -19,21 +19,18 @@
                 <a href="contact.php">Contact</a>
                 <a href="login.php">Login</a>
             </nav>
-        </header>
-        <img src="./images/How-Can-You-Possibly-Perform-At-Your-Peak.png" class="slider">
-        <button class="yellowbutton">Search for coffee shop</button>
+        </header> 
 
-        <div class="imagenav">
-            <div class="career"> <a href=""><button class="imagebutton-menu">Careers</button></a></div>
+<div class="about-text">
+    <h2>About Us</h2>
 
-            <div class="about-us"><button class="imagebutton-menu">About Us</button></div>
-            
-            <div class="coffee-shops"><a href=""><button class="imagebutton-menu">Coffee Shops</button></a></div>
-            
-            <div class="contacts"> <a href=""><button class="imagebutton-menu">Contact Us</button></a></div>
-        </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae lobortis ligula. Sed sed sapien commodo, imperdiet lectus sit amet, lacinia orci. Suspendisse varius, metus id rhoncus placerat, arcu ex elementum leo, in mattis purus lorem non purus. Praesent finibus, urna eget malesuada aliquam, augue turpis vestibulum purus, et pellentesque odio eros ut diam. Morbi volutpat metus sed accumsan tristique. Nulla ut lobortis sapien. Nulla non velit ipsum. Praesent gravida consequat ipsum rutrum pulvinar. Aliquam vitae felis sed sapien sollicitudin cursus non non enim.</p>
+    <img src="./images/p06lfg5t.png" alt="coffee">
+</div>
 
-        <footer>
+
+  </div>
+         <footer>
             <p>Vägenvägen 1 <br>
                 123 45 <br>
                 071234567
@@ -46,7 +43,8 @@
 
 
         </footer>
-
+    
 </body>
 
 </html>
+
