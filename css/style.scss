@@ -91,49 +91,66 @@ body {
 
     }
 
-footer{
-    background-color: #CBBB9F;
-    height: 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    p{
-        font-weight: bold;
+    footer {
+        background-color: #CBBB9F;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        p {
+            font-weight: bold;
+        }
+
+
     }
 
-    
-}
-
-//Coffee shop CSS
-.shops{
-   display: grid;
-   grid-template-columns: auto auto;
-   width: 600px;
-   padding: 10px;
-   img{
-       padding: 5px;
-   }
-   h3{
-       padding: 5px;
-   }
-   p{
-       padding: 5px;
-   }
-}
-
-.about-text{
-    width: 555px;
-    margin: auto auto;
-    text-align: center;
-    h2{
+    //Coffee shop CSS
+    .shops {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 600px;
         padding: 10px;
-        text-align: left;
-        font-size: 14px;
+
+        img {
+            padding: 5px;
+        }
+
+        h3 {
+            padding: 5px;
+        }
+
+        p {
+            padding: 5px;
+        }
     }
-    p{
-        font-size: 14px;
+
+    .about-text {
+        width: 555px;
+        margin: auto auto;
         text-align: center;
-        
+
+        h2 {
+            padding: 10px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 14px;
+            text-align: center;
+
+        }
     }
-}
+
+    main {
+        #map {
+            width: 1000px;
+            height: 500px;
+        }
+        .fel {
+            color: red;
+            background: brown;
+        }
+    }
 
 }

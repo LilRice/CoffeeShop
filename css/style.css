@@ -229,4 +229,14 @@ body .about-text p {
   font-size: 14px;
   text-align: center;
 }
+
+body main #map {
+  width: 1000px;
+  height: 500px;
+}
+
+body main .fel {
+  color: red;
+  background: brown;
+}
 /*# sourceMappingURL=style.css.map */

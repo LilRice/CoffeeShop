@@ -1,3 +1,17 @@
+<?php
+/*
+* PHP version 7
+* @category   Lånekalkylator
+* @author     Karim Ryde <karye.webb@gmail.com>
+* @license    PHP CC
+*/
+include_once "../configscoffee/config-db.inc.php" ;
+
+session_start();
+if (!isset($_SESSION['loggedin'])){
+    $_SESSION['loggedin'] = false;
+}
+?>
 <!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -15,7 +29,14 @@
                 <a href="coffeeshop.php">Coffee Shop</a>
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
-                <a href="login.php">Login</a>
+                <?php
+                if (!$_SESSION['loggedin']) {
+                   echo "<a href=\"login.php\">Login</a>";
+                } else {
+                    echo "<a href=\"logout.php\">Log Out</a>";
+                }
+                
+                ?>
             </nav>
         </header>
         
